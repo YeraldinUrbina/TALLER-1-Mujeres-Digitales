@@ -10,3 +10,38 @@ node_modules/
 # Archivos del sistema
 NTUSER.DAT
 *.swp
+
+# Archivos del sistema
+*.DAT
+*.swp
+*.pyc
+*.class
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Directorios de configuración
+.vscode/
+node_modules/
+.env
+
+# Archivos del sistema y del usuario
+NTUSER.DAT
+.bash_history
+.git-credentials
+.gitconfig
+.lesshst
+AppData/
+Cookies/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Videos/
