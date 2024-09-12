@@ -1,0 +1,12 @@
+# Archivos temporales
+*.log
+*.tmp
+
+# Directorios de configuración
+.vscode/
+node_modules/
+.env
+
+# Archivos del sistema
+NTUSER.DAT
+*.swp
