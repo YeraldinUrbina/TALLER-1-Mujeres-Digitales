@@ -1,0 +1,88 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #6a1b9a;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#formulario-notas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+#titulo,
+#nota{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #b39ddb;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #6a1b9a;
+    background-color: #ede7f6;
+}
+
+button {
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #6a1b9a;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8e24aa;
+}
+
+#lista-nota {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+#lista-nota li {
+    background-color: #f3e5f5;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #6a1b9a;
+    font-size: 1rem;
+    transition: transform 0.2s ease;
+}
+
+#lista-nota li:hover {
+    transform: scale(1.02);
+}
+
+#lista-nota li h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #4a148c;
+}
+
+#lista-nota li p {
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+    color: #6a1b9a;
+}
